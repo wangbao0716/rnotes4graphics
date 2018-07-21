@@ -1,15 +1,20 @@
 ---
 title: "R作条形图"
 author: "Bao Wang"
-date: "2018/7/21"
-output: html_document
+date: "`r Sys.Date()`"
+output: 
+      html_document:
+        toc: true
+        toc_float: true
+        number_sections: true
+        toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+# R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
